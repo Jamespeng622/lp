@@ -39,6 +39,12 @@ html, body {
     display: none;
 }
 
+#why_p {
+    width: 600px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media (max-width: 1000px){
@@ -78,6 +84,10 @@ html, body {
     #aux {
         display: initial;
     }
+
+    #why_p {
+        width: 400px;
+    }
 }
 
 @media (max-width: 450px){
@@ -96,6 +106,10 @@ html, body {
 
     #aux {
         display: initial;
+    }
+
+    #why_p {
+        width: 300px;
     }
 }
 
@@ -138,12 +152,7 @@ footer {
     color: gray;
 }
 
-#why_p {
-    width: 600px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .lead {
     margin-bottom: 50px;
@@ -151,6 +160,8 @@ footer {
 
 #why, #features, #feedback {
     margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .info {
