@@ -10,7 +10,7 @@ window.addEventListener('scroll', function(e){
     if(pos > 900){
         loga.style.display = "none";
         logb.style.display = "initial";
-        nb.style.backgroundColor = "white";
+        nb.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     }else{
         loga.style.display = "initial";
         logb.style.display = "none";
