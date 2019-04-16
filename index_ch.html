@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Sugarfree Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+    <nav class="navbar fixed-top navbar-light bg-faded">
+        <button id="hamburger" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--<a class="navbar-brand" href="#"><span class="logo">The Sugarfree Project</span></a>-->
+        <a class="navbar-brand" href="#"><img src="Images/logo_en.png" width="150px"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="navbar" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#why" id="w">理念</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features" id="f">功能</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#feedback" id="e">回饋</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html" id="c">EN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer" id="a">關於</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar fixed-top navbar-expand navbar-light bg-faded" id="aux">
+        <a class="navbar-brand" href="#"><img src="Images/logo_s.png" width="200px"></a>
+            <ul id="nav2" class="navbar-nav mr-auto">
+                <li class="nav-item" id="lm">
+                    <a class="nav-link" id="l2" href="./index.html">EN</a>
+                </li>
+            </ul>
+    </nav>
+
+
+
+    <header id="banner">
+        <div id="banner-fg" class="d-flex flex-column justify-content-between">
+            <div></div>
+            <div>
+                <h1 class="display-4 banner-text" id="title"><strong>無糖<br>計畫</strong></h1>
+                <h2 class="lead banner-text" id="subtitle">今天開始一起戒糖！</h2>
+                <br>
+                <a class="btn btn-success btn-lg" href="https://www.google.com">我想參加！</a>
+            </div>
+            <h2 class="banner-text">
+                <!--Put icon here-->
+            </h2>
+        </div>
+    </header>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <section>
+                <h2 id="why" class="display-4 navbar-offset">理念</h2>
+                <p id="why_p">
+                    現代人的飲食裡太多糖分了。生活中有太多的誘惑，太多的加工食品，造成很多人上癮而不自知。
+                    這個應用程式<span class="logo">無糖計畫</span>希望可以透過紀錄來控制糖的攝取，藉此
+                    降低患上糖尿病等慢性疾病的風險，進而活得更加健康。
+                </p>
+                <p id="why_p">
+                    此外，我們預計增加一些寵物養成的元素，讓你更有動機持續記錄。
+                </p>
+            </section>
+
+            <section>
+                <h2 id="features" class="navbar-offset display-4">功能</h2>
+
+                <div class="row flex-sm-row-reverse justify-content-center align-items-center block">
+                    <div class="col-12 col-sm-6 col-md-7 info">
+                        <h3>
+                            一鍵紀錄
+                        </h3>
+                        <p>
+                            我們搜集了便利商店的飲料零食資訊並彙整在我們的資料庫裡。您在使用我們的應用程式時，您可以快速
+                            搜尋到現有的資訊，並加入自己的每日紀錄中。不需要掃QR Code，更不需要估算自己吃了多重的食物等等。
+                        </p>
+                        <p>
+                            這個應用程式也會顯示您最喜歡的飲料和最近喝的飲料，幫助您快速選擇。使用iOS系統的使用者更可以在
+                            訊息中心或是利用Force Touch快速紀錄！
+                        </p>
+                    </div>
+                    <div class="col-8 col-sm-6 col-md-5">
+                        <!--Add image here!-->
+                        <img class="img-fluid" src="Images/notification_center_ch.png">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center align-items-center block">
+                    <div class="col-12 col-sm-6 col-md-7 info">
+                        <h3>
+                            友善的介面
+                        </h3>
+                        <p>
+                            您可以快速的看到每日的糖質攝取，並看到您的進步與目標。除了紀錄，他還會給予您一些建議。
+                        </p>
+                        <p>
+                            我們有時候會推薦相同類別但含糖較少的飲料供您選擇！此外，也可以自己設立目標，和我們一起成長。
+                        </p>
+                    </div>
+                    <div class="col-8 col-sm-6 col-md-5">
+                        <!--Add image here!-->
+                        <img class="img-fluid" src="Images/app_view_ch.png">
+                    </div>
+                </div>
+
+                <div class="row flex-sm-row-reverse justify-content-center align-items-center block">
+                    <div class="col-12 col-sm-6 col-md-7 info">
+                        <h3>
+                            寵物養成
+                        </h3>
+                        <p>
+                            純紀錄很無聊吧！所以我們預計增加一些可愛的生物，您攝取的糖質越少，他們成長得越快。
+                            今天就來和他們一起成長吧！
+                        </p>
+                    </div>
+                    <div class="col-8 col-sm-6 col-md-5">
+                        <!--Add image here!-->
+                        <img class="img-fluid" src="Images/hatch_ch.png">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center align-items-center block">
+                    <div class="col-12 col-sm-6 col-md-7 info">
+                        <h3>
+                            加入我們！
+                        </h3>
+                        <p>
+                            讓我們一起擁抱健康！今天就一起來戒糖。
+                        </p>
+                        <a class="btn btn-success btn-lg" href="https://www.google.com">我想參加！</a>
+                    </div>
+                    <div class="col-8 col-sm-6 col-md-5">
+                        <!--Add image here!-->
+                        <img class="img-fluid" src="Images/cover_ch.png">
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 id="feedback" class="navbar-offset display-4">給我們一些回饋！</h2>
+                <p>您是一個專業人士嗎？您有興趣加入嗎？我們現在仍在開發階段，歡迎各方的所有意見！
+                    寫個Email給我們吧！謝謝～</p>
+                <a class="btn btn-success btn-lg" id="eb" href="https://google.com">寄給我們</a>
+            </section>
+        </div>
+    </div>
+
+    <footer id="footer" class=".navbar-offset">
+        <section>
+            <h2 class="text-center">關於我們</h2>
+        </section>
+        <p class="text-center">我們是一群正在修網站開發的清大學生！<br>
+            我們希望可以用自己的微薄力量把世界變得更好。</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
